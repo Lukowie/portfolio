@@ -1,2 +1,2 @@
 # portfolio
-The creation of my portfolio using React and Material UI mostly
+The creation of my portfolio using React
