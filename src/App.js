@@ -5,6 +5,7 @@ import Work from './components/Work';
 import Home from './components/Home';
 import Particles from 'react-particles-js';
 import LandingBtn from './components/landingBtn';
+import 'bootstrap/dist/css/bootstrap.css';
 
 //TODO: make buttons the same width, resize with same scale
 //possible add particle effect -- done

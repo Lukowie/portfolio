@@ -1,6 +1,6 @@
 import React from "react";
 import Navigation from './navigation';
-import pageCss from '../css/main.css';
+import '../css/main.css';
 
 function Work(){
     return(
