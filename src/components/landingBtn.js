@@ -39,7 +39,7 @@ const Btn = styled.span`
 const Text = styled.p`
   color: white; 
   position: relative;
-  top: 35%; 
+  top: 45%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
   font-size: ${props => props.fontSize};
