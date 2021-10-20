@@ -30,10 +30,10 @@ const Btn = styled.span`
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   border: 0.2vw solid white;
-  transition: all 1.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   :hover{
-      transform: scale(0.8);
-  } 
+    background-color: rgba(255, 255, 255, 0.2);;
+} 
 `;
 
 const Text = styled.p`

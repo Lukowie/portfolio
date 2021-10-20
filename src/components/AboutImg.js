@@ -3,13 +3,15 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 
 const imgStyle = {
-    minWidth: "150px"
+    minWidth: "100px",
+    maxWidth: "250px",
+    paddingTop: "2vh",
 }
 
 const AboutImg = () => {
     return (
-        <div className={"text-center"}>
-            <img src={face} className="w-25" style={imgStyle} alt="lucas face"/>
+        <div className="text-center">
+            <img src={face}  style={imgStyle} alt="lucas face"/>
         </div>
     )
 }

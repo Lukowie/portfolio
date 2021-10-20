@@ -8,17 +8,16 @@ import {Container}  from 'react-bootstrap';
 import AboutImg from "./AboutImg";
 
 const Header = styled.h1`
-    padding-top: 2vh;
     text-align: center;
 `;
 
 function About(){
     return(
         <div>
-            <Navigation/>
-            <Header className={"display-1"}>About Me</Header>
+            <Navigation/>  
             <Container>
                 <AboutImg />
+                <Header className={"display-1"}>About Me</Header>
                 <AboutCard/>
             </Container>
         </div>
